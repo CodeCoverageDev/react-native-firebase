@@ -8,8 +8,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "cypress:open": "npx cypress open",
-    "cypress:run": "npx cypress run --headless browser=electron"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headless browser=electron",
+    "dev": "start-test web 19006 cy:open",
+    "dev:ci": "start-test web 19006 cy:run"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.6",
@@ -26,7 +28,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "cypress": "^9.1.0"
+    "cypress": "^9.1.0",
+    "expo-cli": "^4.13.0",
+    "start-server-and-test": "^1.14.0"
   },
   "keywords": [
     "react-native",
