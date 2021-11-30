@@ -1,0 +1,17 @@
+{
+  "projectId": "Firebase Auth",
+  "baseUrl": "http://localhost:19006/",
+  "viewportHeight": 812,
+  "viewportWidth": 375,
+  "watchForFileChanges": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "numTestsKeptInMemory": 50,
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "env": {
+    "coverage": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "valid": {
+    "email": "Lim@example.com",
+    "password": "12345678"
+  },
+  "invalid": {
+    "email": "fake@example.com",
+    "password": "12345678"
+  },
+  "empty": {
+    "email": " ",
+    "password": " "
+  }
+}
